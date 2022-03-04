@@ -7,7 +7,7 @@
   "item": [
     {
       "name": "localhost:8080/yanki-transfers",
-      "_postman_id": "ec225ca3-c792-4191-8b7c-d26a5d3ab9d4",
+      "id": "ec225ca3-c792-4191-8b7c-d26a5d3ab9d4",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -61,6 +61,19 @@
           "body": "{\n    \"id\": \"622188eb4ea184649f5df543\",\n    \"sourceCelphone\": \"9219921921\",\n    \"destinationCelphone\": \"987654321\",\n    \"amount\": 10,\n    \"comment\": \" \",\n    \"createdAt\": \"2022-03-04T03:35:07.690+00:00\",\n    \"status\": true\n}"
         }
       ]
+    },
+    {
+      "name": "localhost:8080/yanki-transfers",
+      "id": "2848155a-5b1c-4aa8-a6e1-dda8bfbb53b8",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "localhost:8080/yanki-transfers"
+      },
+      "response": []
     }
   ]
 }
