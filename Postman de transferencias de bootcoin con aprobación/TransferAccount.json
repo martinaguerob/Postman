@@ -1,0 +1,66 @@
+{
+  "info": {
+    "_postman_id": "9f0af3e8-1c80-4e2a-bbca-9475392103cc",
+    "name": "BootCoin Transfer",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Guardar transacción",
+      "_postman_id": "96147b50-986b-456c-8a54-15171fcf226a",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"idBuyer\": \"62219eb9e335662567afc02d\",\r\n    \"amountBootCoin\": \"10\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "localhost:8080/bootcoin-transaction/buys-bank"
+      },
+      "response": []
+    },
+    {
+      "name": "Aceptado la compra - banco",
+      "_postman_id": "7ff5bd32-b74b-4aa2-8eb6-88a9344b862c",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"status\": \"Accepted\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "localhost:8080/bootcoin-transaction/approve/6221be9c5971b40c5168533c"
+      },
+      "response": []
+    },
+    {
+      "name": "Transacción aprobada",
+      "_postman_id": "a44bccdd-c5a8-4aa6-b6f8-52915d591e8f",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "localhost:8080/bootcoin-transaction/6221be9c5971b40c5168533c"
+      },
+      "response": []
+    }
+  ]
+}
