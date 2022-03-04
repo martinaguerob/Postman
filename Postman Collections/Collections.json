@@ -1,0 +1,66 @@
+{
+  "info": {
+    "_postman_id": "cbb6c16a-6c1a-40c4-9cf5-e81b07256d5a",
+    "name": "Transferencia Yanki",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "localhost:8080/yanki-transfers",
+      "_postman_id": "ec225ca3-c792-4191-8b7c-d26a5d3ab9d4",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"sourceCelphone\": \"9219921921\",\r\n    \"destinationCelphone\": \"987654321\",\r\n    \"amount\": \"10\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "localhost:8080/yanki-transfers"
+      },
+      "response": [
+        {
+          "id": "0cf92b4c-ee66-4301-b72c-26d8a6bd7484",
+          "name": "localhost:8080/yanki-transfers",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"sourceCelphone\": \"9219921921\",\r\n    \"destinationCelphone\": \"987654321\",\r\n    \"amount\": \"10\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": "localhost:8080/yanki-transfers"
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "content-length",
+              "value": "183"
+            }
+          ],
+          "cookie": [],
+          "responseTime": null,
+          "body": "{\n    \"id\": \"622188eb4ea184649f5df543\",\n    \"sourceCelphone\": \"9219921921\",\n    \"destinationCelphone\": \"987654321\",\n    \"amount\": 10,\n    \"comment\": \" \",\n    \"createdAt\": \"2022-03-04T03:35:07.690+00:00\",\n    \"status\": true\n}"
+        }
+      ]
+    }
+  ]
+}
