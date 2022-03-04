@@ -1,0 +1,91 @@
+{
+  "info": {
+    "_postman_id": "1b2bee64-1677-4fac-928d-821df2d29e55",
+    "name": "BootCoin Account",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Agregar cuenta bancaria",
+      "_postman_id": "79f323a9-82ea-4d14-9d75-13a33a6a9453",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"numberBankAccount\": \"455720221252020\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "localhost:8080/bootcoin-account/tobankaccount/62219eb9e335662567afc02d",
+        "description": "Actualizar cuenta bancaria"
+      },
+      "response": []
+    },
+    {
+      "name": "Guardar cuentas bancarias",
+      "_postman_id": "83fd437c-1c3b-49a3-af45-97702795ff51",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"typeDoc\": \"dni\",\r\n    \"numberDoc\": \"71712028\",\r\n    \"celphone\": \"987987987\",\r\n    \"email\": \"abc321@gmail.com\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "localhost:8080/bootcoin-account/",
+        "description": "Save bootcoin-account"
+      },
+      "response": []
+    },
+    {
+      "name": "Agregar cuenta yanki purse",
+      "_postman_id": "c142c5b1-17b2-4625-a1d3-5db5f1c43ede",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"status\": \"Accepted\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "localhost:8080/bootcoin-transaction/approve/6221be9c5971b40c5168533c",
+        "description": "Agregar cuenta yanki"
+      },
+      "response": []
+    },
+    {
+      "name": "Listar Cuentas bootcain",
+      "_postman_id": "d6efe7b9-635f-4877-9f17-5d3e31433253",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "localhost:8080/bootcoin-account"
+      },
+      "response": []
+    }
+  ]
+}
