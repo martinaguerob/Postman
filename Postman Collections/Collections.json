@@ -73,7 +73,33 @@
         "header": [],
         "url": "localhost:8080/yanki-transfers"
       },
-      "response": []
+      "response": [
+        {
+          "id": "98033a08-f070-46c6-af63-d88bcc2d5a75",
+          "name": "localhost:8080/yanki-transfers",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": "localhost:8080/yanki-transfers"
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "transfer-encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "cookie": [],
+          "responseTime": null,
+          "body": "[\n    {\n        \"id\": \"622181895d8f2b31245eec7a\",\n        \"sourceCelphone\": \"9219921921\",\n        \"destinationCelphone\": \"987654321\",\n        \"amount\": 100,\n        \"comment\": \"te mando platita\",\n        \"createdAt\": \"2022-03-04T03:03:36.561+00:00\",\n        \"status\": true\n    },\n    {\n        \"id\": \"62218462452eff78da229ebf\",\n        \"sourceCelphone\": \"9219921921\",\n        \"destinationCelphone\": \"987654321\",\n        \"amount\": 5,\n        \"comment\": \"te mando platita\",\n        \"createdAt\": \"2022-03-04T03:15:45.868+00:00\",\n        \"status\": true\n    },\n    {\n        \"id\": \"62218540a51ec622c6c1d2a9\",\n        \"sourceCelphone\": \"9219921921\",\n        \"destinationCelphone\": \"987654321\",\n        \"amount\": 7,\n        \"comment\": \"te mando platita\",\n        \"createdAt\": \"2022-03-04T03:19:27.569+00:00\",\n        \"status\": true\n    },\n    {\n        \"id\": \"622186254ea184649f5df53c\",\n        \"sourceCelphone\": \"9219921921\",\n        \"destinationCelphone\": \"987654321\",\n        \"amount\": 8,\n        \"comment\": \"platita\",\n        \"createdAt\": \"2022-03-04T03:23:17.033+00:00\",\n        \"status\": true\n    },\n    {\n        \"id\": \"622186d84ea184649f5df53d\",\n        \"sourceCelphone\": \"9219921921\",\n        \"destinationCelphone\": \"987654321\",\n        \"amount\": 1,\n        \"comment\": \"platita\",\n        \"createdAt\": \"2022-03-04T03:26:16.003+00:00\",\n        \"status\": true\n    },\n    {\n        \"id\": \"622186f24ea184649f5df53e\",\n        \"sourceCelphone\": \"9219921921\",\n        \"destinationCelphone\": \"987654321\",\n        \"amount\": 120,\n        \"comment\": \"platita\",\n        \"createdAt\": \"2022-03-04T03:26:42.283+00:00\",\n        \"status\": true\n    }\n]"
+        }
+      ]
     }
   ]
 }
