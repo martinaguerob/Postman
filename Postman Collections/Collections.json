@@ -16,7 +16,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n    \"sourceCelphone\": \"9219921921\",\r\n    \"destinationCelphone\": \"987654321\",\r\n    \"amount\": \"10\"\r\n}",
+          "raw": "{\r\n    \"sourceCelphone\": \"9219921921\",\r\n    \"destinationCelphone\": \"987654321\",\r\n    \"amount\": \"12\"\r\n}",
           "options": {
             "raw": {
               "language": "json"
